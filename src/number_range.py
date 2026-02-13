@@ -1,7 +1,7 @@
 def categorize(num, min, max):
     if min < num < max:
-        return "In range" 
+        return "True" 
     elif num == min or num == max:
-        return "On limit"
+        return "True"
     else:
-        return "Not in range"
+        return "False"
